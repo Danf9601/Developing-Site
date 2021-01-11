@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Developing S.A.S</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./fonts/styleicon.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <nav class="navbar-nav">
+        <div class="navbar-logo">
+          <a class="navbar-logo__link" href="index.html"
+            >develop<span>i</span>ng</a
+          >
+        </div>
+        <ul class="navbar-list">
+          <li class="navbar-list__item">
+            <a class="navbar-list__link" href="#discover">discover</a>
+          </li>
+          <li class="navbar-list__item">
+            <a class="navbar-list__link" href="#services">services</a>
+            <!-- Completar -->
+          </li>
+          <li class="navbar-list__item">
+            <a class="navbar-list__link btn-1" href="./signin.html">login</a>
+          </li>
+        </ul>
+        <div class="navbar-burger">
+          <div class="navbar-burger__bar"></div>
+          <div class="navbar-burger__bar"></div>
+          <div class="navbar-burger__bar"></div>
+        </div>
+      </nav>
+    </header>
+    <!-- Carousel -->
+    <section>
+      <div class="carousel-container">
+        <h1 class="titulo-link">
+          WE ARE READY TO TAKE YOUR <span>IDEAS</span> TO ANOTHER LEVEL
+        </h1>
+        <p class="carousel-text">
+          Our goal is to connect people and companies with their own brands
+          through design and development. We have created new visual concepts
+          through the optimization of information, the usefulness of the product
+          to the client or managers and the simplicity of basic or elaborate
+          designs that are attractive to people.
+        </p>
+        <p class="carousel-text">
+          The projects are primarily based on quality and compliance. We know
+          that the commitment to our clients is the most important in addition
+          to the polishness with which we deliver their requirements. We always
+          try to leave our good image based on ethics and hard work, we strive
+          that our after-sales service is to improve the product or start a new
+          idea, we try to listen and advise the client well so as not to fall
+          into modifications.
+        </p>
+      </div>
+      <div class="slide-contenedor"></div>
+      <div class="miSlider">
+        <img
+          src="assets/images/COMFYHOUSEGERMAN.jpg"
+          alt="COMFYHOUSEGERMAN"
+          width="1400"
+          height="900"
+        />
+      </div>
+      <div class="miSlider">
+        <img
+          src="assets/images/LINA ABSOLUT VODKA.jpg"
+          alt="ABSOLUT"
+          width="1400"
+          height="900"
+        />
+      </div>
+      <div class="miSlider">
+        <img
+          src="assets/images/LINA DISEÑO TADEO.jpg"
+          alt="TADEO"
+          width="1400"
+          height="900"
+        />
+      </div>
+      <div class="miSlider">
+        <img
+          src="assets/images/CHATBOX PERSONERIA DE BOGOTA.jfif"
+          alt="PERSONERIA"
+          width="1400"
+          height="900"
+        />
+      </div>
+      <div class="direcciones">
+        <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+        <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+      </div>
+      <div class="barras">
+        <span class="barra active" onclick="posicionSlide(1)"></span>
+        <span class="barra" onclick="posicionSlide(2)"></span>
+        <span class="barra" onclick="posicionSlide(3)"></span>
+        <span class="barra" onclick="posicionSlide(4)"></span>
+      </div>
+    </section>
+    <!--About us section  -->
+    <section id="discover">
+      <div class="about-section">
+        <div class="inner-container">
+          <h1>
+            About <a class="link-about"><span>US</span></a>
+          </h1>
+          <p class="text">
+            We are a technology service provider company, focused on solving
+            problems in robust, medium or small schemes at the project level. We
+            have a significant number of allies that provide us with different
+            services according to the needs of our clients, maintaining business
+            ethics and good practices. Maintaining high quality standards, we
+            always recommend the best options with integrity and transparency.
+          </p>
+          <div class="skills">
+            <span>Web & App Design</span>
+            <span>Adobe Photoshop , Illustrator & Premiere</span>
+            <span>Coding</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--services -->
+    <section id="services">
+      <div class="grid-services">
+        <div class="wrapper1">
+          <title>SERVICES</title>
+          <div class="grid-items">
+            <span class="icon icon-office"></span>
+            <subtitle
+              >INFRAS<a class="partinfra"><span>TRUCTURE</span></a></subtitle
+            >
+            <p>
+              Maintenance, Upgrade, Design and implementation of high tech
+              Infrastructure.
+            </p>
+          </div>
+          <div class="grid-items">
+            <span class="icon icon-cogs"></span>
+            <subtitle
+              >AUTOMATION<a class="IOT"><span>+IOT</span></a></subtitle
+            >
+            <p>
+              From complex industry processes to daily home tasks, we simplify
+              those duties designing accessible automation solutions.
+            </p>
+          </div>
+          <div class="grid-items">
+            <span class="icon icon-copy"></span>
+            <subtitle
+              >SOFTWARE
+              <a class="DEVELOPMENT"><span>DEVELOPMENT</span></a></subtitle
+            >
+            <p>
+              Applications designed to meet our customer’s needs. Your
+              requirements will be converted in tailor made solutions.
+            </p>
+          </div>
+          <div class="grid-items">
+            <span class="icon icon-display"></span>
+            <subtitle
+              >DOMAIN/<a class="WEBSITE"><span>WEBSITE</span></a></subtitle
+            >
+            <p>
+              Let us take care of your IT environment, spend more time in your
+              core business.
+            </p>
+          </div>
+          <div class="grid-items">
+            <span class="icon-paint-format"></span>
+            <subtitle
+              >DES<a class="IGN"><span>IGN</span></a></subtitle
+            >
+            <p>
+              Design your brand, your page, or everything that comes out of your
+              imagination with us
+            </p>
+          </div>
+          <div class="grid-items">
+            <span class="icon icon-google2"></span>
+            <subtitle
+              >SEO & <a class="SEM"><span>SEM</span></a></subtitle
+            >
+            <p>
+              We will help you, positioning your business to another level
+              thanks to the benefits of digital marketing
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <!--CUBE BOX-->
+
+        <div class="wrapper">
+          <div class="box-area">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+            <div class="box5"></div>
+            <div class="box6"></div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!--CARDS -->
+    <section>
+      <div class="container-cards">
+        <h1 class="heading">Meet The Team</h1>
+        <div class="card-wrapper">
+          <div class="card">
+            <img
+              src="./assets/images/beautiful-panoramic-shot-of-new-york-city.jpg"
+              alt="card background"
+              class="card-img"
+            />
+            <img
+              src="./assets/images/user.png"
+              alt="profile image"
+              class="profile-img"
+            />
+            <h1>Daniel Forero</h1>
+            <p class="job-title">Developer & Design</p>
+            <p class="about-cards">
+              Specialist in digital transformation with a focus on cloud
+              computing, automation processes and management in commercial
+              areas.
+            </p>
+            <a href="#" class="btn-card">Contact</a>
+            <ul class="social-media">
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-google-plus-square"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <img
+              src="./assets/images/beautiful-panoramic-shot-of-new-york-city.jpg"
+              alt="card background"
+              class="card-img"
+            />
+            <img
+              src="./assets/images/user.png"
+              alt="profile image"
+              class="profile-img"
+            />
+            <h1>German Medina</h1>
+            <p class="job-title">Developer & Finance</p>
+            <p class="about-cards">
+              Specialist in technology projects with a focus on financial,
+              machine learning, business advice for management management in
+              finance and accounting
+            </p>
+            <a href="#" class="btn-card">Contact</a>
+            <ul class="social-media">
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-google-plus-square"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <img
+              src="./assets/images/beautiful-panoramic-shot-of-new-york-city.jpg"
+              alt="card background"
+              class="card-img"
+            />
+            <img
+              src="./assets/images/user.png"
+              alt="profile image"
+              class="profile-img"
+            />
+            <h1>Andres Cuestas</h1>
+            <p class="job-title">Commercial & Marketing</p>
+            <p class="about-cards">
+              Digital marketing specialist with a focus on customer experiences
+              related to technology services and branding.
+            </p>
+            <a href="#" class="btn-card">Contact</a>
+            <ul class="social-media">
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-google-plus-square"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <img
+              src="./assets/images/beautiful-panoramic-shot-of-new-york-city.jpg"
+              alt="card background"
+              class="card-img"
+            />
+            <img
+              src="./assets/images/user.png"
+              alt="profile image"
+              class="profile-img"
+            />
+            <h1>Sebastian Martinez</h1>
+            <p class="job-title">Analitics Specialist & Marketing</p>
+            <p class="about-cards">
+              Specialist in Digital Analytics with a focus on market research
+              and business intelligence, social media strategy and digital
+              conversion flow structuring.
+            </p>
+            <a href="#" class="btn-card">Contact</a>
+            <ul class="social-media">
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-google-plus-square"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="footer">
+      <div class="footer-links">
+        <h3 class="footer-links__tittle">links</h3>
+        <ul class="footer-links__list">
+          <li class="footer-links__item">
+            <a class="footer-links__link" href="#discover">discover</a>
+          </li>
+          <li class="footer-links__item">
+            <a class="footer-links__link" href="#services">services</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-socials">
+        <h3 class="footer-socials__tittle">social</h3>
+        <ul class="footer-socials__links">
+          <li class="footer-socials__item">
+            <a href="" class="footer-socials__link">github</a>
+          </li>
+          <li class="footer-socials__item">
+            <a href="" class="footer-socials__link">instagram</a>
+          </li>
+          <li class="footer-socials__item">
+            <a href="" class="footer-socials__link">twitter</a>
+          </li>
+          <li class="footer-socials__item">
+            <a href="" class="footer-socials__link">behance</a>
+          </li>
+        </ul>
+      </div>
+      <p class="footer-copyright">created by developing S.A.S</p>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
